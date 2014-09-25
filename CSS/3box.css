@@ -1,0 +1,41 @@
+#body{
+	clear:both;
+}
+
+#subtitle{
+	clear:both;
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	color:black;
+}
+
+#topbox{
+	width: 100%;
+	float: left;
+	padding: 1%	;
+	
+}
+
+#topbox img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bleft, #bright{
+	width: 48%;
+	padding: 1%;
+	float: left;
+}
+#bleft img{
+	float: left;
+}
+#bright img{
+	float: right;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+}
