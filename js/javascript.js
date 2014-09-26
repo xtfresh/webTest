@@ -1,3 +1,11 @@
+function insertHeader(){
+	var link = document.querySelector('link[rel = "import"]');
+	var content = link.import;
+	var header = content.querySelectorI('#header');
+	document.body.insertBefore(header, document.body.firstChild);
+}
+
+
 function make_header() {
 	var headerHTML = '<div id = "logo">LOGO</div>\
 						<div id = "menu">\
@@ -12,5 +20,5 @@ function make_header() {
 						</div>';
 	document.getElementById("header").innerHTML = headerHTML;
 	var thisPage = document.getElementById("header").innerHTML;
-	thisPage.getElementById("menu").setAttribute("status", "active");
+	document.getElementById(thisPage).setAttribute("class	", "active");
 }

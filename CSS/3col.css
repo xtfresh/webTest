@@ -16,7 +16,7 @@
 	padding: 1%;
 }
 
-#leftcol img.header, #centercol img.header, #rightcol img.header{
+#leftcol img.image, #centercol img.image, #rightcol img.image{
 	float:right;
 	padding-right: 1%
 }

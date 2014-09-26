@@ -1,0 +1,58 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+#header{
+	line-height: 3em;
+}
+#logo {
+	background-color: #555;
+	float:left;
+	width:15%;
+	font-size: 3.5em;
+	text-align: left;
+	font-style: bold;
+	color:white;
+}	
+
+#ddm{
+	float:left;
+	background-color: #555;
+	width: 75%;
+	position: relative;
+	z-index: 10;
+
+
+}
+
+#ddm .subMenu{
+	visibility: hidden;
+	height: 0;
+	position: absolute;
+	width: 20%;
+}
+
+#ddm ul li{
+	list-style: none;
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+#ddm ul li div a{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: lightgray;
+}
+
+#ddm ul li div a:hover {
+	color: white;
+	background: black;
+}
+
+#ddm ul li .subMenu a{
+	background: darkgray;
+}

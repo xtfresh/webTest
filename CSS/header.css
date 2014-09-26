@@ -48,6 +48,6 @@
 	border-right: 1px solid white;
 }
 
-#menu li.current, #menu li:hover{
+#menu li.active, #menu li:hover{
 	background-color: #000;
 }
