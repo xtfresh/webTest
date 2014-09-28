@@ -17,29 +17,22 @@ img {
 	color:black;
 }
 
-#topbox{
+#top{
 	width: 100%;
 	float: left;
 	padding: 1%	;
 	
 }
 
-#topbox img{
-	display:block;
+#top img{
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#bleft, #bright{
-	width: 48%;
+#b1 img, #b2 img, #b3 img, #b4 img{
+	width: 23%;
 	padding: 1%;
 	float: left;
-}
-#bleft img{
-	float: left;
-}
-#bright img{
-	float: right;
 }
 
 #footer {

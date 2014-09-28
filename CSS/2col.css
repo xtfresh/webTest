@@ -18,6 +18,8 @@
 
 #leftcol img.image, #rightcol img.image {
 	float: right;
+	-webkit-filter: grayscale(100%);
+
 }
 
 #footer {

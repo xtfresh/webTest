@@ -4,27 +4,28 @@
 	margin: 0;
 	font-family: sans-serif;
 }
+
+
 #header{
 	line-height: 3em;
 }
 #logo {
-	background-color: #555;
 	float:left;
+	background-color: #555;
 	width:15%;
 	font-size: 3.5em;
 	text-align: left;
 	font-style: bold;
 	color:white;
-}	
+}
+
 
 #ddm{
 	float:left;
 	background-color: #555;
-	width: 75%;
+	width: 85%;
 	position: relative;
 	z-index: 10;
-
-
 }
 
 #ddm .subMenu{
@@ -55,4 +56,10 @@
 
 #ddm ul li .subMenu a{
 	background: darkgray;
+}
+
+#logo, #ddm {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
 }

@@ -2,6 +2,11 @@
 	clear:both;
 }
 
+img {
+	-webkit-filter: grayscale(100%);
+
+}
+
 #subtitle{
 	clear:both;
 	font-size: 1.5em;
@@ -19,6 +24,7 @@
 #leftcol img.image, #centercol img.image, #rightcol img.image{
 	float:right;
 	padding-right: 1%
+	-webkit-filter: grayscale(100%);
 }
 
 #footer {
