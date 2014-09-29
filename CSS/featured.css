@@ -1,0 +1,43 @@
+
+
+#body {
+	clear: both;
+	height: 50em;
+	background-image: url('http://lorempixel.com/1366/768/');
+	-webkit-filter: grayscale(100%);
+	background-repeat: no-repeat;
+}
+
+
+#subtitle {
+	clear: both;
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	color: black;
+}
+
+#leftcol, #rightcol {
+	padding-top: 2em;
+	width: 25%;
+	padding-left: 20%;
+	float:left;
+}
+
+
+#leftcol p{
+	float: right;
+	color: black;
+}
+#rightcol img.image {
+	float: right;
+	padding-right: 5em;
+	-webkit-filter: grayscale(100%);
+
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	color:black;
+}
